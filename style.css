@@ -78,3 +78,9 @@ body {
 .question-box:is(#wrong) {
     background-color: rgb(255, 127, 127);
 }
+
+@media (orientation: portrait) {
+    .app {
+        width: 100vw !important;
+    }
+}
